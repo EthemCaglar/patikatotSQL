@@ -1,7 +1,7 @@
 create table employee (
 	name VARCHAR(50),
 	birthdate DATE,
-	email VARCHAR(50)
+	email VARCHAR(100)
 );
 insert into employee (name, birthdate, email) values ('Monah Delacourt', '1973-07-12', 'mdelacourt0@t.co');
 insert into employee (name, birthdate, email) values ('Carl Nairns', '1978-12-31', 'cnairns1@wisc.edu');
