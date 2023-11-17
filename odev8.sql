@@ -53,3 +53,43 @@ insert into employee (name, birthdate, email) values ('Sunny Betke', '1991-07-19
 insert into employee (name, birthdate, email) values ('Billye Makiver', '1979-04-04', 'bmakiver1b@vistaprint.com');
 insert into employee (name, birthdate, email) values ('Lynea Tabard', '1971-04-24', 'ltabard1c@php.net');
 insert into employee (name, birthdate, email) values ('Stanfield Rennolds', '1985-12-16', 'srennolds1d@newsvine.com');
+
+UPDATE employee
+	SET name = 'Richard Richardson',
+        birthday = '1996-05-30'
+	WHERE id = 1;
+
+UPDATE employee
+	SET name = 'Melikşah Altuntaş',
+	email = 'melili@gmail.com'
+	WHERE id = 2;
+
+UPDATE employee
+	SET name = 'Belon Dusk',
+        birthday = '1970-12-18'
+	WHERE id = 3;
+
+UPDATE employee
+	SET name = 'Ali Şişmek',
+        email = 'mentor@patika.com'
+	WHERE id = 4;
+
+UPDATE employee
+	SET name = 'Kentaro Miura',
+        birthday = '1966-07-11'
+	WHERE id = 5;
+
+DELETE FROM employee
+	WHERE id =30;
+
+DELETE FROM employee
+	WHERE name ='Finlay Guage';
+
+DELETE FROM employee
+	WHERE name ='Sunny Betke';
+
+DELETE FROM employee
+	WHERE id =20;
+
+DELETE FROM employee
+	WHERE email ='lpaddingtonn@jiathis.com';
